@@ -1,0 +1,27 @@
+<body>
+	<div class="container">
+		<header>
+			<h1>Todo List</h1>
+			<form class="new-task">
+				<input type="text" name="text" placeholder="Type to add new tasks" />
+			</form>
+		</header>
+		{{> login}}
+
+		<ul>
+			{{#each tasks}}
+				{{> task}}
+			{{/each}}
+		</ul>
+	</div>
+</body>
+
+<template name="login">
+    {{#if currentUser}}
+        {{currentUser.services.facebook.name}} -
+        {{currentUser.services.facebook.gender}}
+        <button id="logout">Logout</button>
+    {{else}}
+        <button id="facebook-login" class="btn btn-default"> Login with Facebook</button>
+    {{/if}}
+</template>
