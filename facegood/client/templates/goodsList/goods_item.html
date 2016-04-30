@@ -1,6 +1,8 @@
 <template name = "goodsItem">
-	<div>
-		<h1>{{name}}</h1>
-		<p>{{description}}</p>
+	<div class = "goods-item-containter-class">
+		<span class="float-left font-white background-black span-size">{{name}}</span>
+		<span class="float-left font-white background-black span-size">{{seller}}</span>
+		<span class="float-left font-white background-black span-size">{{rating}}</span>
+		<a class="url-link" href={{ref}}>more info</a>
 	</div>
 </template>

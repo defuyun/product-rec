@@ -1,15 +1,21 @@
 var goods =[
 	{
 		name:"Amercian apple",
-		description:"Some apples"
+		seller:"Carrot",
+		rating:"1",
+		ref:"url1"
 	},
 	{
 		name:"Chinese banana",	
-		description:"Some bananas"
+		seller:"Chris",
+		rating:"2",
+		ref:"url2"
 	},
 	{
 		name:"Australian oranges",
-		description:"Some oranges"
+		seller:"Carl",
+		rating:"3",
+		ref:"url3"
 	}
 ]
 

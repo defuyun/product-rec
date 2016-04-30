@@ -1,0 +1,43 @@
+.choiceList-class{
+	margin:10px 0 0 0;
+	background:#e05038;
+	text-align:center;
+}
+
+.goodsList-class{
+	//display:none;
+}
+
+.descrption-class{
+	display:block;
+	background: #e6af4b;
+}
+
+.float-left{
+	float:left;
+}
+
+.font-white{
+	color:#ffffff;
+}
+
+.background-black{
+	background: #000000;
+}
+
+.span-size{
+	width:140px;
+	text-align:center;
+}
+
+.goods-item-containter-class{
+	width:100%;
+	height:24px;
+}
+
+.url-link{
+	hover:hand;
+	display:block;
+	color:white;
+	background: black
+}
